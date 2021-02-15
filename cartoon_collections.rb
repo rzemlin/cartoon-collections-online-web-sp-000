@@ -15,7 +15,7 @@ def summon_captain_planet(array)
   end 
   new_array
 end
-binding.pry
+
 def long_planeteer_calls(array) 
   i = 0 
   while i < array.length
@@ -23,6 +23,7 @@ def long_planeteer_calls(array)
     return true
   else 
     return false
+  end
   i = i + 1
   end 
 end
