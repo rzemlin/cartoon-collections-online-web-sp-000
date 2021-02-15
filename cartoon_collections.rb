@@ -4,9 +4,8 @@ def roll_call_dwarves(array)
     puts "#{i + 1}. #{array[i]}"
     i += 1 
   end 
-end
 roll_call_dwarves(array)
-
+end
 def summon_captain_planet(array)
   new_array = []
   i = 0 
